@@ -1,0 +1,112 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:1
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:1
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:1
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+application
+ADDED from AndroidManifest.xml:7:1
+	android:label
+		ADDED from AndroidManifest.xml:8:5
+	android:icon
+		ADDED from AndroidManifest.xml:9:5
+	android:theme
+		ADDED from AndroidManifest.xml:10:5
+activity#org.opencv.samples.colorblobdetect.ColorBlobDetectionActivity
+ADDED from AndroidManifest.xml:12:5
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:14:9
+	android:label
+		ADDED from AndroidManifest.xml:13:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:15:9
+	android:name
+		ADDED from AndroidManifest.xml:12:15
+activity#org.opencv.samples.colorblobdetect.serverConnect
+ADDED from AndroidManifest.xml:19:5
+	android:label
+		ADDED from AndroidManifest.xml:20:9
+	android:name
+		ADDED from AndroidManifest.xml:19:15
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:21:9
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:22:13
+	android:name
+		ADDED from AndroidManifest.xml:22:21
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:23:13
+	android:name
+		ADDED from AndroidManifest.xml:23:23
+supports-screens
+ADDED from AndroidManifest.xml:29:1
+	android:largeScreens
+		ADDED from AndroidManifest.xml:32:5
+	android:smallScreens
+		ADDED from AndroidManifest.xml:30:5
+	android:normalScreens
+		ADDED from AndroidManifest.xml:31:5
+	android:resizeable
+		ADDED from AndroidManifest.xml:29:19
+	android:anyDensity
+		ADDED from AndroidManifest.xml:33:5
+uses-sdk
+ADDED from AndroidManifest.xml:35:1
+MERGED from color-blob-detection1:openCVLibrary2411:unspecified:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:35:37
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:35:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:37:1
+	android:name
+		ADDED from AndroidManifest.xml:37:18
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:38:1
+	android:name
+		ADDED from AndroidManifest.xml:38:18
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:39:5
+	android:name
+		ADDED from AndroidManifest.xml:39:22
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:40:1
+	android:required
+		ADDED from AndroidManifest.xml:40:54
+	android:name
+		ADDED from AndroidManifest.xml:40:15
+uses-feature#android.hardware.camera.autofocus
+ADDED from AndroidManifest.xml:41:1
+	android:required
+		ADDED from AndroidManifest.xml:41:64
+	android:name
+		ADDED from AndroidManifest.xml:41:15
+uses-feature#android.hardware.camera.front
+ADDED from AndroidManifest.xml:42:1
+	android:required
+		ADDED from AndroidManifest.xml:42:60
+	android:name
+		ADDED from AndroidManifest.xml:42:15
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from AndroidManifest.xml:43:1
+	android:required
+		ADDED from AndroidManifest.xml:43:70
+	android:name
+		ADDED from AndroidManifest.xml:43:15
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:44:1
+	android:name
+		ADDED from AndroidManifest.xml:44:18

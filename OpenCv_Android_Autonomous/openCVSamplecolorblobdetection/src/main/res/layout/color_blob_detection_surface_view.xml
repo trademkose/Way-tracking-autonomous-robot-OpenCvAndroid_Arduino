@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <org.opencv.android.JavaCameraView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/color_blob_detection_activity_surface_view" />
+
+    <TextView
+        android:id="@+id/textViewPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FF0000"
+        android:textSize="16dip"
+        android:textStyle="bold"
+        android:text="TextView" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnRight"
+        android:layout_above="@+id/btnDown"
+        android:layout_toRightOf="@+id/btnDown" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnSouthWest"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnRight" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnSouthHeast"
+        android:layout_alignTop="@+id/btnDown"
+        android:layout_alignLeft="@+id/btnLeft" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnNorthHeast"
+        android:layout_above="@+id/btnLeft"
+        android:layout_alignLeft="@+id/btnLeft" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnNorthWest"
+        android:layout_alignTop="@+id/btnTop"
+        android:layout_toRightOf="@+id/btnTop" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnLeft"
+        android:layout_above="@+id/btnDown"
+        android:layout_toLeftOf="@+id/btnDown" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnTop"
+        android:layout_above="@+id/btnLeft"
+        android:layout_toRightOf="@+id/btnLeft" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnDown"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/connect"
+        android:clickable="true"
+        android:src="@drawable/no1"
+        android:layout_alignBottom="@+id/textViewPoint"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/light"
+        android:clickable="true"
+        android:layout_above="@+id/connect"
+        android:layout_alignLeft="@+id/connect" />
+</RelativeLayout>

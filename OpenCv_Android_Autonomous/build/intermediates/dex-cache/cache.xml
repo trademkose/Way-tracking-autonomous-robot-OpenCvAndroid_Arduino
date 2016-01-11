@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/MahmutKarali/Desktop/color-blob-detection1/openCVSamplecolorblobdetection/build/intermediates/exploded-aar/color-blob-detection1/openCVLibrary2411/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b8ef3a72ea085c84c520e4f03d1d77ca0e1f7fd8">
+        <dex dex="/Users/MahmutKarali/Desktop/color-blob-detection1/openCVSamplecolorblobdetection/build/intermediates/pre-dexed/debug/classes-9294ad9c5936b4a3ab004cefa2b89c2759667876.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="#447298"
+    android:orientation="vertical"
+    android:shape="rectangle" >
+
+    <ScrollView
+        android:id="@+id/svScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="160dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/textIp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="IP Address"
+
+                android:textColor="#447298"
+                android:textColorHint="#447298"
+                android:typeface="sans" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/textPort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Port Number"
+                android:inputType="phone"
+                android:textColor="#447298"
+                android:textColorHint="#447298"
+                android:typeface="sans" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Server Connection"
+                android:textColor="#447298"
+                android:textColorHint="#447298"
+                android:typeface="sans" />
+
+            <requestFocus />
+        </TableRow>
+
+    </TableLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:id="@+id/setting"
+        android:layout_alignTop="@+id/svScroll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp" />
+
+</RelativeLayout>
+<!-- From: file:/Users/MahmutKarali/Desktop/color-blob-detection1/openCVSamplecolorblobdetection/src/main/res/layout-v14/serverconnect.xml -->
